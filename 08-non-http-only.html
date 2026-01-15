@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test: Non-HTTP Only</title></head>
+<body>
+  <h1>Test Entry</h1>
+  <p>Goals: Testing link validation scenarios.</p>
+  <p>Results: Automated QA testing.</p>
+  <p>Target audience: Development team.</p>
+  
+  <!-- Expected: AI_Status = WARN, AI_Problem_Domains = empty, AI_Notes = "No outbound links" -->
+  <ul>
+    <li><a href="mailto:test@example.com">Email</a></li>
+    <li><a href="tel:+358401234567">Phone</a></li>
+    <li><a href="javascript:void(0)">JS Link</a></li>
+  </ul>
+</body>
+</html>
