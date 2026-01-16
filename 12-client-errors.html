@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test: Client Errors</title></head>
+<body>
+  <h1>Test Entry</h1>
+  <p>Goals: Testing link validation scenarios.</p>
+  <p>Results: Automated QA testing.</p>
+  <p>Target audience: Development team.</p>
+  
+  <!-- Expected: 404/410 = ERROR, other 4xx = REVIEW_REQUIRED -->
+  <ul>
+    <li><a href="https://httpbin.org/status/404">404 Error</a></li>
+    <li><a href="https://httpbin.org/status/410">410 Gone</a></li>
+    <li><a href="https://httpbin.org/status/400">400 Bad Request</a></li>
+    <li><a href="https://httpbin.org/status/418">418 I'm a teapot</a></li>
+  </ul>
+</body>
+</html>

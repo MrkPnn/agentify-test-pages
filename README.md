@@ -53,6 +53,14 @@ Just upload all HTML files to your static hosting provider.
 - `08-non-http-only.html` - Non-HTTP only
 - `09-mixed-skipped.html` - Mixed skipped + bot-blocker
 - `10-subdomain-test.html` - Subdomain normalization
+- `11-redirects.html` - Redirects (301/302/307/308)
+- `12-client-errors.html` - Client errors (4xx)
+- `13-server-errors.html` - Server errors (5xx)
+- `14-timeouts.html` - Timeouts
+- `15-invalid-and-weird-urls.html` - Invalid and weird URLs
+- `16-duplicate-links.html` - Duplicate links
+- `17-images-mixed.html` - Images mixed
+- `18-bot-protection.html` - Bot protection
 
 ## URLs
 

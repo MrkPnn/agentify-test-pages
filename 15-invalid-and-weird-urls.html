@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test: Invalid and Weird URLs</title></head>
+<body>
+  <h1>Test Entry</h1>
+  <p>Goals: Testing link validation scenarios.</p>
+  <p>Results: Automated QA testing.</p>
+  <p>Target audience: Development team.</p>
+  
+  <!-- Expected: "Not checkable" URLs should be SKIPPED with "No checkable URL" (or ERROR if preferred). Tests URL normalization and fragment stripping. -->
+  <ul>
+    <li><a href="#">Bare hash</a></li>
+    <li><a href="#section">Hash with section</a></li>
+    <li><a href="mailto:test@example.com">Email link</a></li>
+    <li><a href="tel:+358401234567">Phone link</a></li>
+    <li><a href="javascript:void(0)">JavaScript link</a></li>
+    <li><a href="https://example.com/#fragment">URL with fragment</a></li>
+    <li><a href="https://example.com/">URL without fragment (dedupe test)</a></li>
+  </ul>
+</body>
+</html>

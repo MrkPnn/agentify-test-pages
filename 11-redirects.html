@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test: Redirects</title></head>
+<body>
+  <h1>Test Entry</h1>
+  <p>Goals: Testing link validation scenarios.</p>
+  <p>Results: Automated QA testing.</p>
+  <p>Target audience: Development team.</p>
+  
+  <!-- Expected: All OK (if <400 is considered OK). Tests 301/302/307/308 redirects and final URL handling. -->
+  <ul>
+    <li><a href="https://httpbin.org/redirect-to?url=https://httpbin.org/status/200&status_code=301">301 Redirect</a></li>
+    <li><a href="https://httpbin.org/redirect-to?url=https://httpbin.org/status/200&status_code=302">302 Redirect</a></li>
+    <li><a href="https://httpbin.org/redirect-to?url=https://httpbin.org/status/200&status_code=307">307 Redirect</a></li>
+    <li><a href="https://httpbin.org/redirect-to?url=https://httpbin.org/status/200&status_code=308">308 Redirect</a></li>
+  </ul>
+</body>
+</html>

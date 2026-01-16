@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test: Duplicate Links</title></head>
+<body>
+  <h1>Test Entry</h1>
+  <p>Goals: Testing link validation scenarios.</p>
+  <p>Results: Automated QA testing.</p>
+  <p>Target audience: Development team.</p>
+  
+  <!-- Expected: unique_links smaller than deduped_from, and "worst status" wins if same URL gets different status. Tests if query params are normalized or not. -->
+  <ul>
+    <li><a href="https://httpbin.org/status/200">Same URL - Link 1</a></li>
+    <li><a href="https://httpbin.org/status/200">Same URL - Link 2</a></li>
+    <li><a href="https://httpbin.org/status/200">Same URL - Link 3</a></li>
+    <li><a href="https://httpbin.org/status/200">Same URL - Link 4</a></li>
+    <li><a href="https://httpbin.org/status/200">Same URL - Link 5</a></li>
+    <li><a href="https://httpbin.org/status/200?param=test">Same URL with query param</a></li>
+  </ul>
+</body>
+</html>

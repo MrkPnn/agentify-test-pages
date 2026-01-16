@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test: Images Mixed</title></head>
+<body>
+  <h1>Test Entry</h1>
+  <p>Goals: Testing link validation scenarios.</p>
+  <p>Results: Automated QA testing.</p>
+  <p>Target audience: Development team.</p>
+  
+  <!-- Expected: total_images, ok_images, error_images, broken_images match. Tests is_image + image aggregation. -->
+  <ul>
+    <li><a href="https://httpbin.org/image/png">Working image (PNG)</a></li>
+    <li><a href="https://httpbin.org/image/jpeg">Working image (JPEG)</a></li>
+    <li><a href="https://httpbin.org/status/404">Broken image (404)</a></li>
+    <li><a href="https://httpbin.org/status/403">Image with 403/401 (REVIEW_REQUIRED or SKIPPED depending on rules)</a></li>
+  </ul>
+</body>
+</html>
